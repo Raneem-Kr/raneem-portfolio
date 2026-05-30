@@ -1,88 +1,178 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Raneem Krenbeh</title>
-    <link rel="shortcut icon" href="/images/IMG_4022.JPG" type="image/x-icon">
-    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@latest/dist/tailwind.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
-        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-                <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Raneem Krenbeh</title>
 
+  <link rel="shortcut icon" href="images/IMG_4022.JPG" type="image/x-icon">
+
+  <link
+    href="https://cdn.jsdelivr.net/npm/tailwindcss@latest/dist/tailwind.min.css"
+    rel="stylesheet"
+  />
+
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+  />
+
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <!-- ----------------------------- nav section ----------------------------- -->
-    <nav class=" nav p-5 bg-black grid grid-cols-2 opacity-80">
-<h1 class="text-2xl text-white font-bold">Raneem Krenbeh</h1>
-<div class=" anchor flex flex-row justify-between text-white font-bold">
-<a href="#home"class="trasnition-transform transform hover:scale-110 duration-300">Home</a>
-<a href="gallery.html"class="trasnition-transform transform hover:scale-110 duration-300">Projekte</a>
-<a href="about.html"class="trasnition-transform transform hover:scale-110 duration-300">Über mich</a>
-<a href="contact.html"class="trasnition-transform transform hover:scale-110 duration-300">Kontakt</a>
-</div>
-    </nav>
 
-    <!-- ---------------------------- Hero Section ----------------------------- -->
+  <!-- Navbar -->
+  <nav class="p-5 bg-black opacity-90">
+    <div class="max-w-6xl mx-auto flex justify-between items-center">
 
-    <section class=" section p-5 grid grid-cols-2" style="background-color: #ccc;">
-<img src="images/IMG_3996.JPG" alt="" class="border rounded-full w-75 h- position-center">
-<div class="ml-5 mt-10">
-    <h1  class="mt-4" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Mein Name ist <strong>Raneem Krenbeh</strong> und ich bin eine leidenschaftliche Webentwicklerin mit einem
-    Bachelor-Abschluss in Medieninformatik von der Universität Bremen. Mein Fokus liegt auf der Frontend-Entwicklung,
-    insbesondere mit Technologien wie <strong>HTML, CSS, JavaScript.</strong> und Frameworks wie
-<strong>React</strong>,  <strong>Bootstrap</strong> und <strong>Tailwind CSS</strong>.
-</h1>
-<h1 class="mt-4"  style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Während meines Studiums habe ich an verschiedenen Projekten gearbeitet, bei denen ich meine Kenntnisse in der
-Webentwicklung erweitern konnte. Meine Leidenschaft gilt dem Erstellen benutzerfreundlicher und responsiver Websites,
-die sowohl funktional als auch ästhetisch ansprechend sind.
-</h1>
-<h1 class="mt-4" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Mein berufliches Ziel ist es, innovative Weblösungen zu entwickeln und in einem Team zu arbeiten, das neue Technologien
-begeistert einsetzt. Wenn ich nicht gerade programmiere, verbringe ich Zeit mit meiner Familie und erkunde gerne neue
-Technologietrends.
-</h1>
-<h1 class="mt-4" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Sie möchten mehr erfahren? <a href="contact.html" class="font-bold hover:text-gray-600">Kontaktieren Sie mich!</a>
-</h1>
-</div>
-    </section>
+      <h1 class="text-2xl text-white font-bold">
+        Raneem Krenbeh
+      </h1>
 
-    <!-- --------------------------- Footer Section ---------------------------- -->
+      <div class="flex gap-8 text-white font-bold">
 
-    <Footer class="p-5 bg-black opacity-80">
-    
-        <!-- ----------------------------- footer-info ----------------------------- -->
-        <div class="flex flex-row justify-around text-white">
-            <!-- Kontakt -->
-            <div>
-                <h1 class="font-bold text-xl">Kontakt</h1>
-                <div class="flex flex-row gap-3 mt-4">
-                    <i class="fa-regular fa-envelope text-xl mt-2"></i>
-                    <p class="mt-1 font-bold">ranim.krenbeh99@gmail.com</p>
-                </div>
-                <div class="flex flex-row gap-3 mt-4">
-                    <i class="fa-solid fa-phone text-xl mt-2"></i>
-                    <p class="mt-1 font-bold">+49/15758733620</p>
-                </div>
-            </div>
-    
-            <!-- Navigation -->
-            <div>
-                <h1 class="font-bold text-xl"> Navigation</h1>
-                <div class="flex flex-col">
-                    <a href="about.html" class="mt-4 transitiom-transform transform hover:scale-110 duration-300">Über mich</a>
-                    <a href="gallery.html" class="mt-4 transitiom-transform transform hover:scale-110 duration-300">Projekte</a>
-                    <a href="contact.html" class="mt-4 transitiom-transform transform hover:scale-110 duration-300">Kontakt</a>
-                </div>
-            </div>
+        <a href="index.html"
+           class="transition-transform hover:scale-110 duration-300">
+          Home
+        </a>
+
+        <a href="gallery.html"
+           class="transition-transform hover:scale-110 duration-300">
+          Projekte
+        </a>
+
+        <a href="about.html"
+           class="transition-transform hover:scale-110 duration-300">
+          Über mich
+        </a>
+
+        <a href="contact.html"
+           class="transition-transform hover:scale-110 duration-300">
+          Kontakt
+        </a>
+
+      </div>
+
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="bg-gray-100 py-16">
+    <div class="max-w-6xl mx-auto px-8 grid md:grid-cols-2 gap-10 items-center">
+
+      <div class="flex justify-center">
+        <img
+          src="images/IMG_3996.JPG"
+          alt="Raneem Krenbeh"
+          class="w-80 h-80 object-cover rounded-full shadow-2xl"
+        >
+      </div>
+
+      <div>
+
+        <h1 class="text-5xl font-bold mb-6">
+          Hi, ich bin Raneem 👋
+        </h1>
+
+        <p class="text-lg text-gray-700 leading-8">
+          Mein Name ist <strong>Raneem Krenbeh</strong> und ich habe einen
+          Bachelor-Abschluss in Medieninformatik von der Universität Bremen.
+        </p>
+
+        <p class="text-lg text-gray-700 leading-8 mt-4">
+          Mein Schwerpunkt liegt auf der Entwicklung moderner Webanwendungen mit
+          <strong>HTML, CSS, JavaScript, React, Node.js und MongoDB</strong>.
+          Durch verschiedene Frontend- und Full-Stack-Projekte konnte ich praktische Erfahrungen in der Entwicklung responsiver Benutzeroberflächen, REST-APIs und datenbankgestützter Anwendungen sammeln.
+        </p>
+
+        <p class="text-lg text-gray-700 leading-8 mt-4">
+          Zusätzlich verfüge ich über grundlegende Kenntnisse in
+          <strong>Java, Python und PHP</strong>.
+        </p>
+
+        <div class="flex gap-4 mt-8">
+
+          <a
+            href="gallery.html"
+            class="bg-black text-white px-6 py-3 rounded-lg hover:bg-gray-800 transition"
+          >
+            Projekte ansehen
+          </a>
+
+          <a
+            href="contact.html"
+            class="border-2 border-black px-6 py-3 rounded-lg hover:bg-black hover:text-white transition"
+          >
+            Kontakt
+          </a>
+
         </div>
-    
-        <!-- Footer Bottom -->
-        <div class="bg-yellow-500 text-white text-center mt-5">
-            <p>&copy; 2024 Raneem Krenbeh. Alle Rechte vorbehalten.</p>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-black text-white">
+
+    <div class="max-w-6xl mx-auto px-8 py-10">
+
+      <div class="grid md:grid-cols-3 gap-10">
+
+        <div>
+          <h2 class="text-2xl font-bold mb-4">
+            Raneem Krenbeh
+          </h2>
+
+          <p class="text-gray-300">
+            Bachelor-Absolventin der Medieninformatik mit Schwerpunkt auf modernen Webanwendungen.
+          </p>
         </div>
-    
-    </Footer>
+
+        <div>
+          <h2 class="text-xl font-bold mb-4">
+            Navigation
+          </h2>
+
+          <div class="flex flex-col gap-3">
+
+            <a href="index.html">Home</a>
+            <a href="gallery.html">Projekte</a>
+            <a href="about.html">Über mich</a>
+            <a href="contact.html">Kontakt</a>
+
+          </div>
+        </div>
+
+        <div>
+
+          <h2 class="text-xl font-bold mb-4">
+            Kontakt
+          </h2>
+
+          <p class="mb-3">
+            <i class="fa-solid fa-envelope mr-2"></i>
+            ranim.krenbeh99@gmail.com
+          </p>
+
+          <p class="mb-3">
+            <i class="fa-solid fa-phone mr-2"></i>
+            +49 157 58733620
+          </p>
+
+        </div>
+
+      </div>
+
+      <div class="border-t border-gray-700 mt-8 pt-6 text-center text-gray-400">
+        © 2025 Raneem Krenbeh. All Rights Reserved.
+      </div>
+
+    </div>
+
+  </footer>
 
 </body>
 </html>
